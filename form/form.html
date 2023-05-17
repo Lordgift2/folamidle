@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FolamReagistartion</title>
+    <link rel="stylesheet" link href="form.css">
+</head>
+<body>
+    <header>
+        <div id="schoolname"><br>
+        FOLAM IDEAL HIGH SCHOOL</div>
+        <em>4/6 Oluwalomola Cresent off Adeniyi Bankole Daddy Town
+            Giwa Area<br>
+           <strong> Tel:</strong>08137075800,07033827842
+           <strong>Email</strong>:folamidealhs@gmail.com</em>
+    </header>
+    <main>
+    <form action="./index.html" method="POST">
+        <div id ="tittle">
+        REGISTRATION FORM 
+        </div>
+        Ensure every aspect of the form is correctly filled
+        <div id="student-profile">  
+        <p id="studentprofile">STUDENT PROFILE</p>
+        <div class="passport">
+                <div id="profile-container">
+                <image id="profileImage" src="./images.jpeg" />
+        <input id="image" type="file" name="profile_photo" placeholder="Photo" required="" capture>
+            </div>
+            </div>
+                <label for="name">Name</label>
+        <input type="text" name="firstName"
+                value="FirstName" id="name">
+        <input type="text" name="firstName"  
+                value="MiddleName" id="name">
+        <input type="text" name="surname" 
+                value="LastName" id="Name"><br>
+        <label for="name">Birth Date</label>
+        <label for="month">Month</label>
+        <input type="number" name="month" value="Month" 
+        id="DOB"
+        min="1" max="12">
+        <label for="day">Day</label>
+        <input type="number" name="day" value="Day" id="DOB"
+         min="1" max="31">
+        <label for="year">Year</label>
+        <input type="number" name="year" value="Year" id="DOB" >
+        <br>
+        <label for="Gender">Gender:</label>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="gender"
+        value="Female">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="gender"
+        value="male"><br>
+        <label for="citizen">Citizen</label>
+        <input type="text" name="citizen" value="Nigeria"><br>
+        <label for="state">State</label>
+        <select id="state" name="state">
+                <option>ABUJA FCT</option>
+                <option>ABIA</option>
+                <option>ADAMAWA</option>
+                <option>AKWA IBOM</option>
+                <option>ANAMBRA</option>
+                <option>BAUCHI</option>
+                <option>BAYELSA</option>
+                <option>BENUE</option>
+                <option>BORNO</option>
+                <option>CROSS RIVER</option>
+                <option>DELTA</option>
+                <option>EBONYI</option>
+                <option>EDO</option>
+                <option>EKITI</option>
+                <option>ENUGU</option>
+                <option>GOMBE</option>
+                <option>IMO</option>
+                <option>JIGAWA</option>
+                <option>KADUNA</option>
+                <option>KANO</option>
+                <option>KATSINA</option>
+                <option>KEBBI</option>
+                <option>KOGI</option>
+                <option>KWARA</option>
+                <option>LAGOS</option>
+                <option>NASSARAWA</option>
+                <option>NIGER</option>
+                <option>OGUN</option>
+                <option>ONDO</option>
+                <option>OSUN</option>
+                <option>OYO</option>
+                <option>PLATEAU</option>
+                <option>RIVERS</option>
+                <option>SOKOTO</option>
+                <option>TARABA</option>
+                <option>YOBE</option>
+                <option>ZAMFARA</option>
+                </select><br>
+        <label for ="email">Email:</label>
+        <input type="text" name="email" id="Email">
+        <br>
+        <label for ="phonenumber">Phone Number :</label>
+        <input type="number" name="phonenumber">
+        <br>
+        <p id="guadianprofile">Guardian Profile</p>
+         <label for="name">Name</label>
+                <input type="text" name="firstName"
+                value="FirstName" id="name">
+                <input type="text" name="firstName"  
+                value="MiddleName" id="name">
+                <input type="text" name="surname" 
+                value="LastName" id="Name"><br>
+        <label for ="phonenumber">Phone Number :</label>
+                <input type="number" name="phonenumber">
+                <br>
+        <label for ="relationship">Relationship :</label>
+                <input type="text" name="relationship">
+                <br>
+        <p id="educationhistory">Education History</p>
+        <label for ="lastclassheld">Last Class Attended :</label>
+        <select id="lastclassattended" name="educationhistory">
+                <option>JSS1</option>
+                <option>JSS2</option>
+                <option>JSS3</option>
+                <option>SSS1</option>
+                <option>SSS2</option>
+                <option>SSS3</option>
+        </select>
+        <br>
+        <input type="submit" value="submit" id="submit">
+
+
+    </form>
+    </main>
+</body>
+</html>
