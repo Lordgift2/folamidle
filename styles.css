@@ -2,7 +2,7 @@ html {display: flex;
     justify-content:left;
     justify-items: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    width: 70%;
+    width: 100%;
     }
     .logo {font-size: large;
             font-weight: 600;
