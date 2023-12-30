@@ -16,11 +16,13 @@ html {display: flex;
     header{
         background-color: gray;
         display: flex;
-        justify-content: center;  
+        justify-content: space-around;  
         font-weight:200; 
         color: black; 
           }
-        .nav{
+        nav{
+            justify-content: space-around;
+
             color:red;
         }
         main{justify-content: center;
@@ -37,13 +39,12 @@ html {display: flex;
         font-weight: 200;
         background-color: red;
         font-style: normal;
-        
+        align-items: center;
         gap: 20px;
     }
     footer {
             display:flex;
-            gap: 10px;
-            justify-content:center ;
+            justify-content:space-around ;
             justify-items: center;
             background: palevioletred;
 
@@ -102,10 +103,13 @@ html {display: flex;
             
         }
         .labs {
-                    display: grid;
+                    display: flex;
                     background: url(images/IMG-20220901-WA0147.jpg);
                     justify-content: center;
+                    align-items: center;
+                    gap: 20px;;
                     padding: 20%;
+                    flex: 1;
         }
     .contact {display: grid;}
             
